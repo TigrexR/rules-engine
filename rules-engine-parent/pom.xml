@@ -12,18 +12,25 @@
 	<description>rule engine parent</description>
 
 	<modules>
-		<module>../rules-engine-nacos</module>
 		<module>../rules-engine-core</module>
+		<module>../rules-engine-processor</module>
+		<module>../rules-engine-authorize</module>
+		<module>../rules-engine-files</module>
+		<module>../rules-engine-message</module>
+		<module>../rules-engine-provider</module>
+		<module>../rules-engine-consumer</module>
+		<module>../rules-engine-gateway</module>
 	</modules>
 
   	<properties>
+		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>11</java.version>
     	<spring-boot.version>2.3.12.RELEASE</spring-boot.version>
     	<spring-cloud.version>Hoxton.SR12</spring-cloud.version>
     	<nacos-config.version>2.2.7.RELEASE</nacos-config.version>
     	<nacos-discovery.version>2.2.7.RELEASE</nacos-discovery.version>
+		<mybatis-plus.version>3.5.1</mybatis-plus.version>
 	</properties>
 
 	<dependencyManagement>

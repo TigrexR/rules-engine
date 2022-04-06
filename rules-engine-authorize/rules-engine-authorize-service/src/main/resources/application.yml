@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: authorize
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.01:3306/tigrex?useUnicode=true&useSSL=false&characterEncoding=utf8
+      username: root
+      password: kingdee
+server:
+  port: 61302
