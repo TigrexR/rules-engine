@@ -19,7 +19,6 @@ import java.io.Serializable;
 @Accessors(chain = true)
 @TableName(value = "groovy_script")
 public class GroovyScript implements Serializable {
-
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "script_code")

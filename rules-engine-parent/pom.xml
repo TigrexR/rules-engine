@@ -13,13 +13,13 @@
 
 	<modules>
 		<module>../rules-engine-core</module>
+		<module>../rules-engine-gateway</module>
 		<module>../rules-engine-processor</module>
 		<module>../rules-engine-authorize</module>
 		<module>../rules-engine-files</module>
 		<module>../rules-engine-message</module>
 		<module>../rules-engine-provider</module>
 		<module>../rules-engine-consumer</module>
-		<module>../rules-engine-gateway</module>
 	</modules>
 
   	<properties>
@@ -30,7 +30,9 @@
     	<spring-cloud.version>Hoxton.SR12</spring-cloud.version>
     	<nacos-config.version>2.2.7.RELEASE</nacos-config.version>
     	<nacos-discovery.version>2.2.7.RELEASE</nacos-discovery.version>
+    	<sentinel.version>2.2.7.RELEASE</sentinel.version>
 		<mybatis-plus.version>3.5.1</mybatis-plus.version>
+		<groovy-version>3.0.10</groovy-version>
 	</properties>
 
 	<dependencyManagement>
