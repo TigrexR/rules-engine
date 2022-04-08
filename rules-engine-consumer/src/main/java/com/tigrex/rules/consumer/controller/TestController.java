@@ -28,6 +28,11 @@ public class TestController {
     @Autowired
     private UserClient userClient;
 
+    @RequestMapping(value = "/sayHello")
+    public String sayHello() {
+        return "hello world!";
+    }
+
     @RequestMapping(value = "/hello")
     public String hello(@RequestBody() ModelQuery query) {
         return testClient.hello(query);

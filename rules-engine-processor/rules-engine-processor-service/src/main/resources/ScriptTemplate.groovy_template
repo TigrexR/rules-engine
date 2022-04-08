@@ -1,0 +1,8 @@
+import com.tigrex.rules.processor.engine;
+import com.tigrex.rules.processor.model.engine;
+
+class %s implements GroovyScriptExecutor {
+    boolean run(Object context){
+        %s //place holder
+    }
+}
